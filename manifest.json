@@ -1,12 +1,9 @@
 {
-  "name": "Google search redder",
-  "short_name": "redder",
+  "name": "toDo Colender",
+  "short_name": "(笑)",
   "version": "1.0",
   "manifest_version": 3,
-  "content_scripts": [
-    {
-      "matches": ["https://www.google.com/search*"],
-      "css": ["styles.css"]
-    }
-  ]
+  "action": {
+    "default_popup": "popup.html"
+  }
 }
