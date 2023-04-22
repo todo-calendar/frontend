@@ -1,7 +1,51 @@
-body {
-  width: 400px;
+h2 {
+  text-align: center;
 }
-.hello {
-  color: #333;
-  font-size: 30px;
+form {
+  width: 550px;
+  height: 250px;
+  /* text-align: center; */
+}
+.pl {
+  position: fixed;
+  top: 16vh;
+  left: 8vw;
+}
+.l {
+  position: fixed;
+  top: 36vh;
+  left: 8vw;
+}
+.pr {
+  position: fixed;
+  top: 56vh;
+  left: 7vw;
+}
+#task {
+  position: fixed;
+  top: 20vh;
+  left: 16vw;
+  width: 75vw;
+  height: 12vh;
+}
+#limmit {
+  position: fixed;
+  top: 40vh;
+  left: 16vw;
+  width: 75vw;
+  height: 12vh;
+}
+#priority {
+  position: fixed;
+  top: 60vh;
+  left: 16vw;
+  height: 12vh;
+  width: 75vw;
+}
+button {
+  position: fixed;
+  top: 80vh;
+  left: 16vw;
+  height: 10vh;
+  width: 75vw;
 }
