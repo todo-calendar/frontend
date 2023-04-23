@@ -4,16 +4,35 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="popup.css" />
   </head>
+  <h2>予定を入力してください</h2>
   <form>
-    <input
-      type="text"
-      id="task"
-      name="予定を入力"
-      minlength="3"
-      maxlength="30"
-    />
-    <input type="date" id="limmit" />
-    <button id="sendForm">Go!</button>
+    <div>
+      <label>
+        <h3 class="pl">予定</h3>
+        <input
+          type="text"
+          id="task"
+          placeholder="予定を入力"
+          minlength="3"
+          maxlength="30"
+        />
+      </label>
+      <label>
+        <h3 class="l">期限</h3>
+        <input type="date" id="limmit" />
+      </label>
+      <label>
+        <h3 class="pr">優先度</h3>
+        <select id="priority">
+          <option value="0">まだ大丈夫</option>
+          <option value="1">やらないとなぁ</option>
+          <option value="2">やる</option>
+          <option value="3">やらねば！！</option>
+        </select> </label
+      ><br />
+      <br />
+      <button id="sendForm">Go!</button>
+    </div>
   </form>
   <body>
     <script src="popup.js" defer></script>
